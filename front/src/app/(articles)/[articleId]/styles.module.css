@@ -1,0 +1,48 @@
+.articleTitle {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.articleSubTitle {
+    font-size: 1.3rem;
+    color: #6B6B6B;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+.articleImage {
+    margin-bottom: 2.15rem;
+}
+
+.articleText {
+    color: #242424;
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.commentsList {
+    display: flex;
+    flex-flow: column;
+    margin-top: 3rem;
+}
+
+.commentListItem {
+    padding: 1.5rem 0;
+    border-top: 1px solid rgb(242, 242, 242);
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+
+.commentText {
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    color: #242424;
+}
+
+.commentsTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}

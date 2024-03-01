@@ -1,0 +1,21 @@
+{
+  "name": "b2b",
+  "version": "1.0.0",
+  "description": "B2B test app",
+  "scripts": {
+    "start:dev": "npm run start:dev:front & npm run start:dev:back",
+    "start:dev:front": "npm run dev --workspace=front",
+    "start:dev:back": "npm run dev --workspace=back"
+  },
+  "keywords": ["b2b"],
+  "author": "ag.riazanov@gmail.com",
+  "license": "MIT",
+  "workspaces": [
+    "back",
+    "front"
+  ],
+  "engines": {
+    "node": "^20.11.0",
+    "npm": "^10.2.4"
+  }
+}

@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 50px;
+    width: 270px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-flow: column;
+    font-size: 13px;
+    gap: 12px;
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #242424;
+    outline: none;
+    text-align: center;
+    background: transparent;
+}
+
+.submitButton {
+    background: black;
+    border-radius: 20px;
+    color: white;
+    outline: navajowhite;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submitButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
